@@ -842,31 +842,21 @@
           <div class="col-lg-6">
             <div class="text-container">
               <h2>Request early access</h2>
-              <p>
-                Creative Hire is currently looking for ambitious UX designers
-                with at least 2 portfolio projects for our launch. We would love
-                to host your profile and start helping you on your UX career path.
+              <p style="
+              font-size: 18px;
+              line-height: 2;
+              color: #000c17;
+              font-weight: 500;
+            ">
+                Creative Hire is currently limited to 200 ambitious UX designers
+                with at least 2 portfolio projects for the launch. Once registration
+                is complete, you will receive a notifcation with a link to create a 
+                profile prior to the launch.<br>
+                <strong>
+                  Please note that we will only host designers with completed profiles.
+                </strong>
               </p>
-              <ul class="list-unstyled li-space-lg">
-                <li class="media">
-                  <i class="fas fa-check"></i>
-                  <div class="media-body">
-                    <strong class="blue">Discount offers for early users</strong>
-                  </div>
-                </li>
-                <li class="media">
-                  <i class="fas fa-check"></i>
-                  <div class="media-body">
-                    <strong class="blue">Limited to the first 200 signups</strong>
-                  </div>
-                </li>
-                <li class="media">
-                  <i class="fas fa-check"></i>
-                  <div class="media-body">
-                    <strong class="blue">Long-term benefits for early users</strong>
-                  </div>
-                </li>
-              </ul>
+             
             </div>
             <!-- end of text-container -->
           </div>
@@ -898,14 +888,23 @@
                   <div class="help-block with-errors"></div>
                 </div>
                 <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control-input"
-                    id="rphone"
-                    name="rphone"
-                    required
-                  />
-                  <label class="label-control" for="rphone">Phone</label>
+                  <select class="form-control-select" id="rselect" required>
+                    <option class="select-option" value="" disabled selected>
+                      I have
+                    </option>
+                    <option class="select-option" value="Personal Loan">
+                      Less than 1 year of experience
+                    </option>
+                    <option class="select-option" value="Car Loan">
+                      1-2 years of experience
+                    </option>
+                    <option class="select-option" value="House Loan">
+                      2-5 years of experience
+                    </option>
+                    <option class="select-option" value="House Loan">
+                      5+ years of experience
+                    </option>
+                  </select>
                   <div class="help-block with-errors"></div>
                 </div>
                 <div class="form-group">
@@ -914,13 +913,13 @@
                       Interested in...
                     </option>
                     <option class="select-option" value="Personal Loan">
-                      Starter
+                      Applying for UX jobs
                     </option>
                     <option class="select-option" value="Car Loan">
-                      Medium
+                      Getting more information on the industry
                     </option>
                     <option class="select-option" value="House Loan">
-                      Complete
+                      Connecting with potential mentors
                     </option>
                   </select>
                   <div class="help-block with-errors"></div>
